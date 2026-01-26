@@ -1,0 +1,46 @@
+After locating the element , how to perform the action
+1. click   +right--> context menu
+2. fill   --> enter input and also clear
+3. clear
+4. pressSequentially
+5. type (deprecated)
+6. press
+7. selectText
+8. check
+9. uncheck
+10. focus
+11. blur
+12. scrollIntoViewIfNeeded
+13. hover------------------->drop down menu
+14. dblclick------------->
+15. dragTo
+16.boundingBox (x,y,width,height)
+
+17. isVisible
+18. isHidden
+19. isEnabled
+20. isDisabled
+21. isEditable
+22. isChecked
+23. getAttribute
+24. innerText
+25. textContent
+26 allInnerTexts
+27 allTextContents
+28. inputValue
+29. ariaSnapshot
+30. innerHTML
+31. highlight
+32. describe --> user defined name for the element in reporter/trace
+page.keyboard
+.press
+.up
+.down
+
+page.mouse
+.wheel
+.move
+.down
+.up
+
+any method which starts with 'is' will return the value without waiting 
