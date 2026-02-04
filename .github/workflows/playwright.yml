@@ -28,7 +28,7 @@ jobs:
         run: npx playwright install --with-deps
       
       - name: Run Playwright tests
-        run: npx playwright test tests/03locators/simplelogin.spec.js
+        run: npx playwright test tests/03locators/getbyLabel.spec.js
       
       - name: Upload HTML report
         uses: actions/upload-artifact@v4
